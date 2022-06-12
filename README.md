@@ -18,4 +18,16 @@
 ```
 $ git clone https://github.com/paritoshtripathi935/Portfolio.git
 ```
+#### Make a Virtual Environment
+```
+$ python3 -m venv venv
+```
+#### Activate virtual Envirnoment
+```
+$ source venv/bin/activate
+```
+#### Install Requirenments
+```
+$ pip install -r requirements.txt
+```
 ## :bulb: Working
