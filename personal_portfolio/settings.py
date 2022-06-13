@@ -68,6 +68,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+             'libraries':{
+                # make your file entry here.
+                'filter_tags': 'Portfolio.templatetags.filter',
+            }
         },
     },
 ]
@@ -114,7 +118,10 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
+USE_L10N = True
+
 USE_TZ = True
+
 
 
 # Static files (CSS, JavaScript, Images)
