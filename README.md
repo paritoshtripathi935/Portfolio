@@ -1,7 +1,7 @@
-<h1 align="center">Perosonal Portfolio</h1>
+<h1 align="center">Personal Portfolio</h1>
 
 <div align= "center">
-  <h4>A Perosnal Portfolio Website built using Django</h4>
+  <h4>A Personal Portfolio Website built using Django</h4>
 </div>
 
 ### :star: Star us on GitHub — it helps!
