@@ -31,11 +31,11 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 ## :bulb: Working
-#### Create a Django Application
+#### Create a Django Project
 ```
-$ python manage.py startapp Portfolio
+$ python manage.py startproject personal_portfolio
 ```
-#### Create a View
+#### Start a app
 ```
 $ python manage.py startapp Portfolio
 ```
