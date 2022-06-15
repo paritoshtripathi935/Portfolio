@@ -36,6 +36,7 @@ urlpatterns = [
     path('projects/', projectsPage, name='projectsPage'),
     path('projects/<str:slug>', projectDetail, name='projectDetail'),
     path('search/', search, name='search'),
+    path('dashboard/', include('dashboard.urls')),
     # path('admin/', admin.site.urls),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

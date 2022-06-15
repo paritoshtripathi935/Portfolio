@@ -30,8 +30,8 @@
 
     </head>
     <body>
-        {% if request.META.HTTP_HOST == 'abdelaali-portfolio.herokuapp.com' %}
-            <meta http-equiv="REFRESH" content="0;url=https://abdelaali.tech/">
+        {% if request.META.HTTP_HOST == 'https://paritoshportfolio.herokuapp.com' %}
+            <meta http-equiv="REFRESH" content="0;url=https://paritoshportfolio.herokuapp.com/">
         {% endif %}
         {% block body %}
             <!-- particles.js container --> 
@@ -76,8 +76,11 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
 
         <!-- stats.js lib --> 
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-        <script src="{% static "animation.js" %}"></script>
+        <script src="les.js/2.0.0/particles.min.js"></script> 
+        
+         <!-- stats.js lib --> 
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+        <script type="text/javascript" src="{% static "animation.js" %}"></script>
 
         <!-- Costom JS-->
         <script src='https://cdn.tiny.cloud/1/d50e95ysaxzxlmnygzozwpoz6icwcj5yb9bezny21nx6k8tv/tinymce/5/tinymce.min.js' referrerpolicy="origin">
