@@ -40,3 +40,12 @@ Here we will be putting our main code.
 ```
 $ python manage.py startapp Portfolio
 ```
+
+## Deployment
+This website has been deployed using heroku.
+Step 1 - Add a .gitignore file for Django, Python and Vscode(for me).
+Step 2 - Run below command and save a requirements file.
+```
+$ pip freeze requirements.txt
+```
+Step 3 - 
