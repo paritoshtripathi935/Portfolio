@@ -36,6 +36,7 @@ $ pip install -r requirements.txt
 $ python manage.py startproject personal_portfolio
 ```
 #### Start a app
+Here we will be putting our main code.
 ```
 $ python manage.py startapp Portfolio
 ```
