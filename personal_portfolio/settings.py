@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-k%7c%iazghw0xlx%u&9#i+hk$*cnux)!8@s9sl8!=_gnl*b_i=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://paritoshportfolio.herokuapp.com']
+ALLOWED_HOSTS = ['https://paritoshtripathi.herokuapp.com/']
 
 LOGIN_URL = '/dashboard/login/'
 LOGOUT_URL = '/dashboard/logout/'
