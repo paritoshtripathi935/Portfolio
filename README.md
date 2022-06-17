@@ -43,9 +43,13 @@ $ python manage.py startapp Portfolio
 
 ## Deployment
 This website has been deployed using heroku.
-1. - Add a .gitignore file for Django, Python and Vscode(for me).
-2. - Run below command and save a requirements file.
+1 - Add a .gitignore file for Django, Python and Vscode(for me).
+2 - Run below command and save a requirements file.
 ```
 $ pip freeze requirements.txt
 ```
-3. - 
+3 - 
+
+## For more Refer to this notion page - 
+
+[Documentation](https://www.notion.so/paritoshtripathi/ce6ebac1d3864bdba62038d1c75aee36?v=f407e19208c14f84b68c7c5bb889c821)
