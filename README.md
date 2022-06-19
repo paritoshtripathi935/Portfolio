@@ -48,7 +48,14 @@ This website has been deployed using heroku.
 ```
 $ pip freeze requirements.txt
 ```
-3 - 
+3 - Add a procfile like a above.
+
+4 - change debug = False.
+
+5 - After deploying run below in heroku bash 
+```
+$ python3 manage.py migrate
+```
 
 ## For more Refer to this notion page - 
 
