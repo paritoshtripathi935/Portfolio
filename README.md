@@ -60,3 +60,7 @@ $ python3 manage.py migrate
 ## For more Refer to this notion page - 
 
 [Documentation](https://www.notion.so/paritoshtripathi/ce6ebac1d3864bdba62038d1c75aee36?v=f407e19208c14f84b68c7c5bb889c821)
+
+## I used these resources - 
+[django Gosting](https://realpython.com/django-hosting-on-heroku/#demo-what-youll-build)
+[Setup Django](https://realpython.com/get-started-with-django-1/#set-up-your-development-environment)
