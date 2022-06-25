@@ -278,5 +278,5 @@ cython_debug/
 
 # Ignore code-workspaces
 *.code-workspace
-
+.bash_profile
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,django,python
